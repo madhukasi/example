@@ -1,0 +1,74 @@
+body{
+    background: #000;
+    color: #FFF;
+    font-family: Arial;
+    text-align: center;
+    margin: 0;
+}
+#app{
+    width: 98vw;
+    height: 100vh;
+    background: #ffffff;
+    margin: 0 auto;
+    flex-direction: row;
+    
+}
+.header{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-grow: 1;
+}
+.header > div{ 
+    background: #00ffff;
+    flex-grow: 1;
+    min-width: 100px;
+    height: 50px;
+}
+.header .logo{
+    min-width: 200px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 20px;
+
+}
+.search{
+    display: flex;
+    position: relative;
+    align-self: center;
+    justify-content:flex-end;
+}
+.search input{
+    height: 30px;
+    min-width: 200px;
+    align-self: center;
+}
+.search .fas{
+    position: absolute;
+    right: 175px;
+    top: 17px;
+    color:#000;
+}
+.header .menu{
+    display: flex;    
+    align-items: center;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+}
+
+.menu >div.fas{
+    flex-grow: 1;
+    align-items: center;
+    padding: 0 20px;
+    font-size: 14px;
+    color:#fff;
+    flex-flow: column;
+    justify-content: space-between;
+    height: 20px;
+        min-width: 20px;
+    max-width: 40px;
+}
+
